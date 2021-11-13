@@ -1,0 +1,7 @@
+CREATE TABLE JOB ()
+    TITLE VARCHAR(40) NOT NULL PRIMARY KEY,
+    MaximumSalary DECIMAL(8,2) NOT NULL,
+    MinimumSalary DECIMAL(8,2) NOT NULL,
+    EducationRequirement VARCHAR(20) NOT NULL,
+    DivisionID TINYINT NOT NULL FOREIGN KEY
+);
